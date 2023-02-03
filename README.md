@@ -1,2 +1,3 @@
 # react-beautiful-tooltip
-Created with CodeSandbox
+### Beautiful tooltip for your beautiful react projects.
+

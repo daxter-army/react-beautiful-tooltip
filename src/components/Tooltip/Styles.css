@@ -1,16 +1,16 @@
 .Tooltip {
-  position: relative;
-  width: max-content;
+	position: relative;
+	width: max-content;
 }
 
 .Tooltip .text,
 .Tooltip .textTip {
-  z-index: 9999;
-  position: absolute;
-  padding: 4px 8px;
-  border-radius: 4px;
-  color: white;
-  background-color: black;
+	z-index: 9999;
+	position: absolute;
+	padding: 4px 8px;
+	border-radius: 4px;
+	color: white;
+	background-color: black;
 }
 
 /* .Tooltip .textTip {
@@ -22,86 +22,86 @@
 /* WHEN TOOLTIP IS ITSELF THE PARENT ALSO */
 /* CENTER TOP */
 .Tooltip .text.center.top {
-  top: 0px;
-  left: 50%;
-  transform: translate(-50%, -100%);
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, -100%);
 }
 
 /* CENTER BOTTOM */
 .Tooltip .text.center.bottom {
-  bottom: 0px;
-  left: 50%;
-  transform: translate(-50%, 100%);
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%, 100%);
 }
 
 /* RIGHT CENTER */
 .Tooltip .text.right.center {
-  top: 50%;
-  right: 0px;
-  transform: translate(100%, -50%);
+	top: 50%;
+	right: 0px;
+	transform: translate(100%, -50%);
 }
 
 /* RIGHT TOP */
 .Tooltip .text.right.top {
-  top: 0px;
-  right: 0px;
-  transform: translateX(100%);
+	top: 0px;
+	right: 0px;
+	transform: translateX(100%);
 }
 
 /* RIGHT BOTTOM */
 .Tooltip .text.right.bottom {
-  bottom: 0px;
-  right: 0px;
-  transform: translateX(100%);
+	bottom: 0px;
+	right: 0px;
+	transform: translateX(100%);
 }
 
 /* LEFT CENTER */
 .Tooltip .text.left.center {
-  top: 50%;
-  left: 0px;
-  transform: translate(-100%, -50%);
+	top: 50%;
+	left: 0px;
+	transform: translate(-100%, -50%);
 }
 
 /* LEFT TOP */
 .Tooltip .text.left.top {
-  top: 0px;
-  left: 0px;
-  transform: translateX(-100%);
+	top: 0px;
+	left: 0px;
+	transform: translateX(-100%);
 }
 
 /* RIGHT BOTTOM */
 .Tooltip .text.left.bottom {
-  bottom: 0px;
-  left: 0px;
-  transform: translateX(-100%);
+	bottom: 0px;
+	left: 0px;
+	transform: translateX(-100%);
 }
 
 /* RIGHT TOP (TOP SIDE) */
 .Tooltip .text.right.top.topSide {
-  top: 0px;
-  right: 0px;
-  transform: translate(0%, -100%);
+	top: 0px;
+	right: 0px;
+	transform: translate(0%, -100%);
 }
 
 /* LEFT TOP (TOP SIDE) */
 .Tooltip .text.left.top.topSide {
-  top: 0px;
-  left: 0px;
-  transform: translate(0%, -100%);
+	top: 0px;
+	left: 0px;
+	transform: translate(0%, -100%);
 }
 
 /* RIGHT BOTTOM (BOTTOM SIDE) */
 .Tooltip .text.right.bottom.bottomSide {
-  bottom: 0px;
-  right: 0px;
-  transform: translate(0%, 100%);
+	bottom: 0px;
+	right: 0px;
+	transform: translate(0%, 100%);
 }
 
 /* LEFT BOTTOM (BOTTOM SIDE) */
 .Tooltip .text.left.bottom.bottomSide {
-  bottom: 0px;
-  left: 0px;
-  transform: translate(0%, 100%);
+	bottom: 0px;
+	left: 0px;
+	transform: translate(0%, 100%);
 }
 
 /* WHEN TOOLTIPPABLE ITEM HAS A PARENT */
