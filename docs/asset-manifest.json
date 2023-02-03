@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.50adaa88.css",
-    "main.js": "/static/js/main.6452ba20.js",
-    "index.html": "/index.html",
-    "main.50adaa88.css.map": "/static/css/main.50adaa88.css.map",
-    "main.6452ba20.js.map": "/static/js/main.6452ba20.js.map"
+    "main.css": "/react-beautiful-tooltip/static/css/main.50adaa88.css",
+    "main.js": "/react-beautiful-tooltip/static/js/main.6452ba20.js",
+    "index.html": "/react-beautiful-tooltip/index.html",
+    "main.50adaa88.css.map": "/react-beautiful-tooltip/static/css/main.50adaa88.css.map",
+    "main.6452ba20.js.map": "/react-beautiful-tooltip/static/js/main.6452ba20.js.map"
   },
   "entrypoints": [
     "static/css/main.50adaa88.css",
