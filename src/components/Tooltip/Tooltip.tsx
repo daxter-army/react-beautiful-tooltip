@@ -13,6 +13,7 @@ const Tooltip: React.FC<TooltipProps> = ({
 	xPlace = "center",
 	sideClass = "topSide",
 	adjustToParentRef = false,
+	className = "",
 	tooltipWidth = "max-content"
 }) => {
 	const tooltipRef = useRef<HTMLParagraphElement>(null);
@@ -105,7 +106,7 @@ const Tooltip: React.FC<TooltipProps> = ({
 
 	return (
 		<div
-			className="Tooltip"
+			className={`Tooltip ${className}`}
 			onMouseEnter={() => setIsTooltipOn(true)}
 			onMouseLeave={() => setIsTooltipOn(false)}
 		>

@@ -10,4 +10,5 @@ export default interface TooltipProps {
 	adjustToParentRef?: boolean;
 	parentRef?: React.MutableRefObject<any>;
 	childRef?: React.MutableRefObject<any>;
+	className?: string;
 }

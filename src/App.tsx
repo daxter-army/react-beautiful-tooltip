@@ -22,7 +22,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="header" style={{ display: "flex" }}>
+      <div className="header">
         <div>
           <h1>react-beautiful-tooltip</h1>
           <p>Beautiful tooltip for your beautiful react projects.</p>

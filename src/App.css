@@ -21,7 +21,7 @@
   gap: 12px;
   display: inline-block;
   height: 100%;
-  padding: 0px 12px;
+  padding: 12px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -49,4 +49,29 @@
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .App .header {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .App .docsLink {
+    margin-top: 20px;
+  }
+
+  .App .tooltipCtr .row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
