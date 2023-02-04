@@ -1,7 +1,7 @@
 # react-beautiful-tooltip <img src="./readme-media/tooltip.png" width="28" />
 ##### Beautiful tooltip for your beautiful react projects.
 
-## Docs
+## 📚 Docs
 
 ```<Tooltip {...props} />``` is the main component that take props and then render tooltip on the respective component.
 
@@ -18,7 +18,7 @@
 | ```adjustToParentRef```  | ```false```      | ```boolean```                      | Toggle between aligning your tooltip to the activating element or its parent element                    |
 | ```tooltipWidth```       | ```max-content```| ```number / string```              | If you want to give width to your tooltip component                                                     |
 
-## Use-case
+## 🪢 Use-case
 
 Currently this package provides you two modes:
 * When the ```<Tooltip />``` component is itself the parent component, i.e when you hover on it, the tooltip aligns with respect to it.
@@ -26,7 +26,7 @@ Currently this package provides you two modes:
 	* In this case you need to provide 2 additional props to the ```<Tooltip />``` component, i.e ```parentRef``` and ```childRef```.
 	* ```parentRef``` being the ref applied on the parent component.
 	* ```childRef``` being the ref applied on the component passed as children to the ```<Tooltip/>```.
-## Development
+## 🛠️ Development
 To get started with the development on your machine:
 
 1. Clone this repository
