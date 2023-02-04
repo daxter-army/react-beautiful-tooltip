@@ -39,9 +39,7 @@ export default function App() {
             <span>Docs | Github Repository</span>
             <img
               width={32}
-              src={
-                "https://raw.githubusercontent.com/daxter-army/react-beautiful-calendar/main/readme-media/github-logo.svg"
-              }
+              src={"https://raw.githubusercontent.com/daxter-army/react-beautiful-calendar/main/readme-media/github-logo.svg"}
               alt="github-logo"
             />
           </a>
@@ -168,6 +166,7 @@ export default function App() {
       <div className="tooltipCtr">
         <div className="row">
           <TooltipOnChild
+            adjustToParent={true}
             text={"Do you know how many islands are in Phillipines?"}
             rightIcon={<GiIsland size={16} />}
             // rightIcon={item.rightIcon}
@@ -178,6 +177,7 @@ export default function App() {
             }}
           />
           <TooltipOnChild
+            adjustToParent={true}
             text={"An ostrich's eye is bigger than its brain"}
             rightIcon={<GiOstrich size={16} />}
             // rightIcon={item.rightIcon}
@@ -190,6 +190,7 @@ export default function App() {
         </div>
         <div className="row">
           <TooltipOnChild
+            adjustToParent={true}
             text={"Venus is the only planet to spin clockwise"}
             leftIcon={<GiExplodingPlanet size={16} />}
             // rightIcon={item.rightIcon}
@@ -200,6 +201,7 @@ export default function App() {
             }}
           />
           <TooltipOnChild
+            adjustToParent={true}
             text={"Are Avocados fruit or vegetables?"}
             leftIcon={<GiAvocado size={16} />}
             // rightIcon={item.rightIcon}

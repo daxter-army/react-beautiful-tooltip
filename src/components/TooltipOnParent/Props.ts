@@ -6,7 +6,7 @@ export default interface TooltipOnParentProps {
 	tooltipPlace: {
 		xPlace?: "top" | "right" | "bottom" | "left" | "center";
 		yPlace?: "top" | "right" | "bottom" | "left" | "center";
-		sideClass?: "topSide" | "bottomSide" | "";
+		sideClass?: "topSide" | "bottomSide";
 	};
 	tooltipText: string;
 }

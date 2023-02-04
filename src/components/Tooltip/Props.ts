@@ -6,7 +6,7 @@ export default interface TooltipProps {
 	tooltipWidth?: number | string;
 	xPlace?: "top" | "right" | "bottom" | "left" | "center";
 	yPlace?: "top" | "right" | "bottom" | "left" | "center";
-	sideClass?: "topSide" | "bottomSide" | "";
+	sideClass?: "topSide" | "bottomSide";
 	adjustToParentRef?: boolean;
 	parentRef?: React.MutableRefObject<any>;
 	childRef?: React.MutableRefObject<any>;

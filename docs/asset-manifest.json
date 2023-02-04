@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-beautiful-tooltip/static/css/main.50adaa88.css",
-    "main.js": "/react-beautiful-tooltip/static/js/main.6452ba20.js",
+    "main.js": "/react-beautiful-tooltip/static/js/main.a73371cd.js",
     "index.html": "/react-beautiful-tooltip/index.html",
     "main.50adaa88.css.map": "/react-beautiful-tooltip/static/css/main.50adaa88.css.map",
-    "main.6452ba20.js.map": "/react-beautiful-tooltip/static/js/main.6452ba20.js.map"
+    "main.a73371cd.js.map": "/react-beautiful-tooltip/static/js/main.a73371cd.js.map"
   },
   "entrypoints": [
     "static/css/main.50adaa88.css",
-    "static/js/main.6452ba20.js"
+    "static/js/main.a73371cd.js"
   ]
 }

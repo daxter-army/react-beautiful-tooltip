@@ -10,7 +10,8 @@ const TooltipOnChild: React.FC<TooltipOnChildProps> = ({
 	leftIcon,
 	rightIcon,
 	tooltipText,
-	tooltipPlace
+	tooltipPlace,
+	adjustToParent = false
 }) => {
 	const tooltipParentRef = useRef<HTMLDivElement>(null);
 	const tooltipChildRef = useRef<HTMLImageElement>(null);
@@ -20,11 +21,11 @@ const TooltipOnChild: React.FC<TooltipOnChildProps> = ({
 			<div className="tooltipInrTwo">
 				{leftIcon && (
 					<Tooltip
-						adjustToParentRef={true}
-						parentRef={tooltipParentRef}
 						{...tooltipPlace}
-						childRef={tooltipChildRef}
 						text={tooltipText}
+						childRef={tooltipChildRef}
+						parentRef={tooltipParentRef}
+						adjustToParentRef={adjustToParent}
 					>
 						<div
 							style={{
@@ -41,11 +42,11 @@ const TooltipOnChild: React.FC<TooltipOnChildProps> = ({
 				<span>{text}</span>
 				{rightIcon && (
 					<Tooltip
-						adjustToParentRef={true}
-						parentRef={tooltipParentRef}
 						{...tooltipPlace}
-						childRef={tooltipChildRef}
 						text={tooltipText}
+						childRef={tooltipChildRef}
+						parentRef={tooltipParentRef}
+						adjustToParentRef={adjustToParent}
 					>
 						<div
 							style={{

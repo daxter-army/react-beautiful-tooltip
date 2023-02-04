@@ -11,8 +11,8 @@ const Tooltip: React.FC<TooltipProps> = ({
 	childRef,
 	yPlace = "top",
 	xPlace = "center",
-	sideClass = "",
-	adjustToParentRef,
+	sideClass = "topSide",
+	adjustToParentRef = false,
 	tooltipWidth = "max-content"
 }) => {
 	const tooltipRef = useRef<HTMLParagraphElement>(null);
